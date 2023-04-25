@@ -1,33 +1,50 @@
 h1 {
     color:white;
     text-align: center;
-    font-family: "fantasy"
+    font-family: "Bruno Ace SC";
+    margin-top: 30px;
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/fire-102.gif);
+    
+    
 }
-#sobre {
-    color: azure;
+.sobre {
+    color: black;
+    padding: 15px 30px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 500px;
+    
 }
 
 
 p {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
-    color: azure;
+    color: black;
+    padding: 15px 30px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 700px;
 }
 
 body {
-    font-style: italic;
     background-color: silver ;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Bruno Ace SC";
     background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic1356104-copia.jpg?w=1900&h=950);
-    background-size: 100%
+    background-size: 150%;
+    object-fit: cover;
+    
 
 }
 ul {
     text-align: left;
-    text-decoration: underline;
     
+    
+    
+}
+.picture {
+    border-radius: 100%;
     
 }
 div { 
@@ -35,27 +52,62 @@ div {
     justify-content: center;
     align-items: center;
     
+    
 }
 li {
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+   
+    line-height: 50px;
 }
 h3 {
     text-align: center;
     color: azure;
-    font-family: 'Times New Roman', Times, serif;
+    
     font-size: 30px;
 }
 
 .list {
     color: azure;
+    line-height: 15px;
     
 }
 a{
+    padding: 15px 30px;
+    background-color: rgb(66, 0, 128);
+    border-radius: 4px;
+    line-height: 20px;
     color: azure;
+    text-decoration: none;
+    
 }
 
 h4 {
     text-align: center;
     font-size: large;   
+}
+.softs {
+    color: black;
+    padding: 15px 30px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 500px;
+}
+a.btn {
+    padding: 15px 30px;
+    background: rgb(66, 0, 128);
+    border-radius: 4px;
+    line-height: 20px;
+    color: azure;
+    text-decoration: none;
+    cursor: pointer;
+    min-width: 300px;
+    transition: all 1s ease;
+    
+
+}
+a.btn:hover {
+    background-color: blueviolet;
+    min-width: 200px;
+    transform: scale (1.5);
+    transition:all 1s ease;
 }
