@@ -1,0 +1,61 @@
+h1 {
+    color:white;
+    text-align: center;
+    font-family: "fantasy"
+}
+#sobre {
+    color: azure;
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+}
+
+body {
+    font-style: italic;
+    background-color: silver ;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic1356104-copia.jpg?w=1900&h=950);
+    background-size: 100%
+
+}
+ul {
+    text-align: left;
+    text-decoration: underline;
+    
+    
+}
+div { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+li {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    text-align: center;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.list {
+    color: azure;
+    
+}
+a{
+    color: azure;
+}
+
+h4 {
+    text-align: center;
+    font-size: large;   
+}
