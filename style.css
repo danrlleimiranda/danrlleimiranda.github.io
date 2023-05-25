@@ -1,59 +1,63 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: antiquewhite; 
-    font-family: "Bruno Ace SC";
-    
-    
+    font-family: "Bruno Ace SC";  
 }
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 1px 2px 3px black ;
+    padding: 5px 10px;
+}
+
 .header {
     padding: 60px 30px 40px 30px;
-    width: 50%;
-    height: fit-content;
-    margin: auto;
-    
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
 }
 
-div .header-content  {
-    height:700px;
-    
-    
-    
-    
-    
+.header-content  {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
 }
+
 .header-content p {
-    position: relative;
-    height: fit-content;
-    width:fit-content;
     padding: 10px 10px;
-    bottom: 300px;
-    margin-left: 40px;
+    width: 280px;
     background-color: green;
     color: azure;
+    border-radius: 10px;
+    margin: 20px;
 }
 
-
-
 div .picture {
-    max-width: 500px;
-    position: relative;
-    left: 40%;
-    border-radius: 100%;
-    padding: 10px 20px;
+    max-width: 400px;
+    border-radius: 150px;
+    box-shadow: 3px 3px 30px 2px black;
     background-color: green;
 
 }
+
 .softs li:nth-of-type(odd) {
     color: white;
 }
-
 
 h3.sobre {
     color:azure;
     padding: 15px 30px;
     background-color: ghostwhite;
     border-radius: 10px;
-    width: 500px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
     text-align: center;
     background-color: green;
    
@@ -61,15 +65,23 @@ h3.sobre {
 }
 
 .softs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
     color: black;
     padding: 15px 30px;
     background-color:green;
     border-radius: 10px;
-    max-width: 500px;
 
 }
 
 p#gostos {
+    width:fit-content;
+    margin: auto;
     text-align: center;
     padding: 10px 30px;
     background-color: green;
@@ -77,23 +89,22 @@ p#gostos {
     color: azure;
     
 }
-a.btn {
-    padding: 15px 30px;
-    background:green;
+nav .btn {
+    padding: 5px 5px;
     border-radius: 4px;
     line-height: 20px;
-    color: azure;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
     cursor: pointer;
-    min-width: 300px;
     transition: all 1s ease;
     
 
 }
 a.btn:hover {
-    background-color: blueviolet;
-    min-width: 200px;
-    transition:all 1s ease;
+    font-weight: 900;
+    color: green;
+
 }
 img.mw {
     max-width: 150px;
@@ -102,11 +113,9 @@ img.mw {
     margin: auto;
 }
 
-
-
 .sites {
     padding: 10px 30px;
-    
+    display: flex;
 }
 
 .tops {
@@ -122,37 +131,23 @@ h1 { color: green;
     text-align: center;
     font-family: "Bruno Ace SC";
     margin-top: 10px;
-    font-size: 50px;
-    
-    
-    
+    font-size: 50px;  
 }
-
-
-ul {
-    text-align: left;
-    
-    
-    
-}
-
-li {
-    text-align: left;
-   
-    line-height: 50px;
-}
-
-
 
 
 .list {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
     color: azure;
-    line-height: 15px;
-    
+    list-style: none;
+    margin: 10px;
+}
+footer {
+display: flex;
+justify-content: center;
+background-color: aliceblue;
 }
 
 
-h4 {
-    text-align: center;
-    font-size: large;   
-}
+
